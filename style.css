@@ -1,0 +1,187 @@
+* {box-sizing: border-box;}
+* {margin: 0px; padding: 0px;}
+
+
+
+#container html, body {
+    height: 100%;
+    margin: 0px;
+    background-color: #F3F3ED;
+}
+
+
+span {
+    font-style: italic;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+}
+ 
+#popup {
+  position: absolute;
+  left:50%;
+  top:50%;
+  height:600px;
+}
+
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
+
+a>div { display: none; }
+
+a:hover>div {
+  display: inline-block;
+
+
+}
+
+h1 {
+
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: #00000;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    text-decoration-thickness: 1px;
+}
+
+#contact { 
+    position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #00000;
+    background-color: #F3F3ED;
+}
+
+
+
+
+/*Collumns as Classes*/
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.intro
+{
+    height: 100%;
+    margin: 0px;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    color: #00000;
+    overflow: hidden;
+
+}
+
+.columns
+{
+    margin-bottom: 20px;
+    font-family: linotype-sabon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: #00000;
+}
+
+
+[class*="col-"] {
+  float: left;
+  padding: 25px;
+}
+
+.col-1 {width: 16.6%;}
+.col-2 {width: 33.2%;}
+.col-3 {width: 49.8%;}
+.col-4 {width: 66.4%;}
+.col-5 {width: 83%;}
+.col-6 {width: 100%;}
+
+
+/*RESPONISVE*/
+
+/*intro typography*/
+
+@media screen and (max-width: 600px) {
+  .intro { font-size: 25px; }
+}
+@media screen and (min-width: 600px) {
+  .intro { font-size: 30px; }
+}
+@media screen and (min-width: 850px) {
+  .intro { font-size: 40px; }
+}
+@media screen and (min-width: 1250px) {
+  .intro { font-size: 45px; }
+}
+
+
+/*headers typography*/
+
+@media screen and (max-width: 600px) {
+  h1 { font-size: 20px; }
+}
+@media screen and (min-width: 600px) {
+  h1 { font-size: 22px; }
+}
+@media screen and (min-width: 880px) {
+  h1 { font-size: 22px; }
+}
+@media screen and (min-width: 1250px) {
+  h1 { font-size: 25px; }
+}
+
+/*bottom columns typography*/
+
+@media screen and (max-width: 600px) {
+  .columns { font-size: 20px; }
+}
+@media screen and (min-width: 600px) {
+  .columns { font-size: 22px; }
+}
+@media screen and (min-width: 880px) {
+  .columns { font-size: 22px; }
+}
+@media screen and (min-width: 1250px) {
+  .columns{ font-size: 25px; }
+}
+
+/*Columns from 3 to 2 at 880px*/
+@media screen and (max-width: 880px) {
+.col-1 {width: 33.2%;}
+.col-2 {width: 49.8%;}
+.col-3 {width: 66.4%;}
+.col-4 {width: 66.4%;}
+.col-5 {width: 83%;}
+.col-6 {width: 100%;}
+
+}
+
+/*Mobile 1 column at 100% width*/
+
+@media only screen and (max-width: 600px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+
+}
+
+
+
