@@ -6,7 +6,7 @@
 #container html, body {
     height: 100%;
     margin: 0px;
-    background-color: #F3F3ED;
+    background-color: #291f77;
 }
 
 
@@ -14,7 +14,7 @@ span {
     font-style: italic;
     text-decoration-line: underline;
     text-decoration-style: solid;
-    text-decoration-color: black;
+    text-decoration-color: white;
     text-decoration-thickness: 3px;
 }
  
@@ -44,7 +44,7 @@ h1 {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    color: #00000;
+    color: black;
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-color: black;
@@ -61,7 +61,7 @@ h1 {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    color: #00000;
+    color: black;
     background-color: #F3F3ED;
 }
 
@@ -85,7 +85,7 @@ h1 {
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    color: #00000;
+    color: black;
     overflow: hidden;
 
 }
@@ -98,7 +98,7 @@ h1 {
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
-    color: #00000;
+    color: black;
 }
 
 
