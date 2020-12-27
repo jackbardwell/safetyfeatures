@@ -17,25 +17,6 @@ span {
     text-decoration-color: white;
     text-decoration-thickness: 3px;
 }
- 
-#popup {
-  position: absolute;
-  left:50%;
-  top:50%;
-  height:600px;
-}
-
-.hover_img a { position:relative; }
-.hover_img a span { position:absolute; display:none; z-index:99; }
-.hover_img a:hover span { display:block; }
-
-a>div { display: none; }
-
-a:hover>div {
-  display: inline-block;
-
-
-}
 
 h1 {
 
@@ -89,6 +70,10 @@ h1 {
     overflow: hidden;
     display: inline-block;
 
+}
+
+.chat{
+width: 100%
 }
 
 .columns
