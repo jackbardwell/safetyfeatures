@@ -39,11 +39,11 @@ a:hover>div {
 
 h1 {
 
-    font-family: linotype-sabon, sans-serif;
+    font-family: neue-haas-grotesk-text, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 16px;
     color: #00000;
     text-decoration-line: underline;
     text-decoration-style: solid;
@@ -56,7 +56,7 @@ h1 {
         left: 0;
         bottom: 0;
         width: 100%;
-    font-family: linotype-sabon, sans-serif;
+    font-family: neue-haas-grotesk-text, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-weight: normal;
@@ -80,11 +80,11 @@ h1 {
 {
     height: 100%;
     margin: 0px;
-    font-family: linotype-sabon, sans-serif;
+    font-family:neue-haas-grotesk-text, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-weight: normal;
-    font-size: 45px;
+    font-size: 20px;
     color: #00000;
     overflow: hidden;
 
@@ -93,7 +93,7 @@ h1 {
 .columns
 {
     margin-bottom: 20px;
-    font-family: linotype-sabon, sans-serif;
+    font-family: neue-haas-grotesk-text, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-weight: normal;
@@ -129,7 +129,7 @@ h1 {
   .intro { font-size: 40px; }
 }
 @media screen and (min-width: 1250px) {
-  .intro { font-size: 45px; }
+  .intro { font-size: 20px; }
 }
 
 
@@ -145,7 +145,7 @@ h1 {
   h1 { font-size: 22px; }
 }
 @media screen and (min-width: 1250px) {
-  h1 { font-size: 25px; }
+  h1 { font-size: 18px; }
 }
 
 /*bottom columns typography*/
@@ -160,7 +160,7 @@ h1 {
   .columns { font-size: 22px; }
 }
 @media screen and (min-width: 1250px) {
-  .columns{ font-size: 25px; }
+  .columns{ font-size: 18px; }
 }
 
 /*Columns from 3 to 2 at 880px*/
