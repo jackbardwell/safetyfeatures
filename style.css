@@ -2,20 +2,33 @@
 * {margin: 0px; padding: 0px;}
 
 
+  ._pattern-overlay { 
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0.3;
+    bottom: 0;
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/vegas/2.3.1/overlays/03.png);
+    z-index: 1;
+  }
+
 fullscreen-bg {
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
+    right: 0;
     overflow: hidden;
     z-index: -100;
 }
 
 .fullscreen-bg__video {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    bottom: 0;
+    right: 0;
+    height: 100vw;
     z-index: -100;
 }
 
