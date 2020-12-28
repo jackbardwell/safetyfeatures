@@ -55,12 +55,14 @@ h1 {
         left: 0;
         bottom: 0;
         width: 100%;
+    border-top: 1px
+    border-color: white;
     font-family: neue-haas-grotesk-text, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    color: black;
+    color: white;
 }
 
 #topbar {
