@@ -99,7 +99,7 @@ h1 {
   display: table;
 }
 
-.programme
+.intro
 {
     height: 100%;
     margin: 0px;
@@ -108,7 +108,7 @@ h1 {
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    color: black;
+    color: white;
     overflow: hidden;
     display: inline-block;
 
