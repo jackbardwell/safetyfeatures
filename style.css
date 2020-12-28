@@ -16,7 +16,7 @@ fullscreen-bg {
     position: absolute;
     top: 0;
     left: 0;
-    max-width: 100%;
+    width: 100%;
     min-height: 100%;
     z-index: -100;
 }
