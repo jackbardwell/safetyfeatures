@@ -116,6 +116,7 @@ h1 {
 
 .chat{
 width: 100%
+z-index:100;
 }
 
 .columns
