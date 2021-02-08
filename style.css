@@ -152,10 +152,10 @@ z-index:100;
   .intro { font-size: 40px; }
 }
 @media screen and (min-width: 600px) {
-  .intro { font-size: 25px; }
+  .intro { font-size: 40px; }
 }
 @media screen and (min-width: 850px) {
-  .intro { font-size: 30px; }
+  .intro { font-size: 40px; }
 }
 @media screen and (min-width: 1250px) {
   .intro { font-size: 40px; }
