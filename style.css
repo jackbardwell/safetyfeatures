@@ -189,7 +189,7 @@ z-index:100;
   .columns { font-size: 22px; }
 }
 @media screen and (min-width: 1250px) {
-  .columns{ font-size: 22px; }
+  .columns{ font-size: 30px; }
 }
 
 /*Columns from 3 to 2 at 880px*/
